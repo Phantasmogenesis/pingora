@@ -28,13 +28,13 @@ use http::request::Builder as ReqBuilder;
 use http::request::Parts as ReqParts;
 use http::response::Builder as RespBuilder;
 use http::response::Parts as RespParts;
-use http::uri::Uri;
 use pingora_error::{ErrorType::*, OrErr, Result};
 use std::convert::TryInto;
 use std::ops::Deref;
 
 pub use http::method::Method;
 pub use http::status::StatusCode;
+pub use http::uri::Uri;
 pub use http::version::Version;
 pub use http::HeaderMap as HMap;
 
